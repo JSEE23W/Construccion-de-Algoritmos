@@ -10,3 +10,30 @@ class Empleado:
     ------------------'''
     sexo=0
     salario=0
+
+    '''-----------------------
+    #Metodos
+    -----------------------'''
+
+    def CambiarSalario(self,nuevoSalario):
+        #Aqui va el codigo del metodo
+        return 0 
+    def CambiarEmpleado(self,nNombre,nApellido,nSexo,nSalario):
+        #Aqui va el codigo del nuevo empleado 
+        return None
+    def ConsultarSalario(self):
+        #Aqui va el codigo del metodo
+        return self.salario
+    def  ConsultarNombre(self):
+        return self.nombre
+    def ConsultarApellido(self):
+        return self.apellido
+    def ConsultarNombreCompleto(self):
+        return self.nombre 
+    def AumentoSalarial(self):
+        nSalario= self.slario=0.05
+        nSalario= nSalario + self.salario
+        self.salario=nSalario
+    return "El nuevo slario es de :"self.salario
+    
+    
