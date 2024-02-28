@@ -12,6 +12,11 @@ class Empleado:
     ------------------'''
     sexo=0
     salario=0
+    '''-----------------------
+    #Asociasiones
+    -----------------------'''
+    fechaNacimiento=Fecha()
+    fechaIngreso=Fecha()
 
     '''-----------------------
     #Metodos
@@ -50,7 +55,18 @@ class Empleado:
     return salarioAnual
     #Forma 2
     #return self.salario*12
+    
+    def ConsultarDiaCumpleaños(self):
+        return ''El dia de su cumpleaños es: ''+self.fechaNacimiento.ConsultarDia()
+    
+    def CalcularImpuesto(self):
 
+        #Forma 1
+        total=self.CalcularSalarioAnual()
+        return (total * 19,5) / 100
+        #Forma 2
+        #return self.CalcularSalarioAnual() * = 0.195
+        
 
     
     
