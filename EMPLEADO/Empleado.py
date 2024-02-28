@@ -1,3 +1,5 @@
+from Fecha import Fecha
+
 class Empleado:
     #Aqui va el codigo del Empleado
     '''-------------------
@@ -34,6 +36,21 @@ class Empleado:
         nSalario= self.slario=0.05
         nSalario= nSalario + self.salario
         self.salario=nSalario
-    return "El nuevo slario es de :"self.salario
+    return "El nuevo slario es de "+self.salario
+    def DuplicarSalario(self):
+        #Aqui va el codigo 
+        #Forma 1
+        #self.salario = self.salario*2
+        #Forma 2 pro
+        self.salario *= 2
+    def CalcularSalarioAnual(self):
+        #Aqui va el codigo
+        # Forma 1
+    salarioAnual = self.salario*12
+    return salarioAnual
+    #Forma 2
+    #return self.salario*12
+
+
     
     
