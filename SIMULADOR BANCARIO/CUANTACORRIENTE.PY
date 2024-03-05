@@ -20,10 +20,10 @@ class CuentaCorriente:
     
     def RetirarMonto(self, monto):
         # #Forma 1
-        # self.saldo -= monto
+        # self.saldo -= monto- 1%
         # # Forma 2
-        # self.saldo = self.saldo - monto
+        # self.saldo = self.saldo - monto-1%
         # # Forma 3
-        total = self.saldo - monto
+        total = self.saldo - monto - 1%
         self.saldo = total
         
