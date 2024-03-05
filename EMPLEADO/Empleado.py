@@ -7,6 +7,7 @@ class Empleado:
     -------------------'''
     nombre=''
     apellido=''
+    nuamerodehijosdelempleado=0
     '''------------------
     #1= Masculino y 2= Femenino
     ------------------'''
@@ -21,6 +22,20 @@ class Empleado:
     '''-----------------------
     #Metodos
     -----------------------'''
+
+    def__init__(self,nombre,numeroDeHijos):
+        self.nombre=nombre
+        self.numeroDeHijos=numeroDeHijos
+
+    def ObtenerNumeroDeHijos(self):
+        return self.numeroDeHijos
+
+    def ConsultarAuxilioEaducativo(self):
+        porcentajesalario=0,05
+        auxilioEducativo=self.salario * porcentajesalario* self.numeroDeHijos
+        return auxilioEducativo
+    def 
+        
 
     def CambiarSalario(self,nuevoSalario):
         #Aqui va el codigo del metodo
