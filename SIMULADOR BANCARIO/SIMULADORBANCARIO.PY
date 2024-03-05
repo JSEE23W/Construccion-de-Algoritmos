@@ -9,6 +9,9 @@ class SimuladorBancario :
     # 1= TipoNormal 2=TipoPlatino y 3=TipoVip
     --------------------------------------'''
     Tipocliente=0
+    '''---------------------------------
+    #Metodos
+    ---------------------------------'''
 
   Def __init__ (self,Cedula,Nombres,Tipocliente):
         self.Cedula=Cedula
