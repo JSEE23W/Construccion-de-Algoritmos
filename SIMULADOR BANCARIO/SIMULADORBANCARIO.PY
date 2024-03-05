@@ -6,7 +6,7 @@ class SimuladorBancario :
     Nombres=''
     MesActual=0
 
- def Def __init__ (self,Cedula,Nombres,Tipocliente):
+  Def __init__ (self,Cedula,Nombres,Tipocliente):
         self.Cedula=Cedula
         self.Nombres=Nombres
         self.TipoCliente=TipoCliente
