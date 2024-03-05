@@ -1,2 +1,2 @@
 from SIMULADORBANCARIO import SIMULADORBANCARIO
-
+cliente1=Cliente(
