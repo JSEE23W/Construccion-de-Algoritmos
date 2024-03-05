@@ -1,6 +1,7 @@
-class CuentaCorriente:
+class CuentaAhorros:
     
     saldo = 0
+    interesMensual = 0
     
     '''----------------------------------------------------------------
     # Metodos
@@ -26,4 +27,3 @@ class CuentaCorriente:
         # # Forma 3
         total = self.saldo - monto
         self.saldo = total
-        
